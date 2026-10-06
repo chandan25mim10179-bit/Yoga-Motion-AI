@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+mediapipe
+opencv-python
+numpy
+pandas
+scikit-learn
+pydantic
+python-dotenv
+pytest
+httpx

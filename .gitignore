@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# IDE / editors
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python test/cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated datasets
+datasets/processed/*
+datasets/raw/*
+
+# Keep dataset folder structure
+!datasets/raw/.gitkeep
+!datasets/processed/.gitkeep
+
+# Trained model files
+models/*.joblib
+models/*.pkl
+models/*.onnx
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
